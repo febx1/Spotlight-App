@@ -44,7 +44,7 @@ export default defineSchema({
     .index("by_follower", ["followerId"])
     .index("by_both", ["followerId", "followingId"]),
 
-  notification: defineTable({
+  notifications: defineTable({
     receiverId: v.id("users"),
     senderId: v.id("users"),
     type: v.union(v.literal("like"), v.literal("comment"), v.literal("follow")),

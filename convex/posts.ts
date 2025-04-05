@@ -111,7 +111,7 @@ export const toggleLike = mutation({
 
       // if its not my post then create a new notification
       if (currentUser._id !== post.userId) {
-        await ctx.db.insert("notification", {
+        await ctx.db.insert("notifications", {
           receiverId: post.userId,
           senderId: currentUser._id,
           type: "like",
