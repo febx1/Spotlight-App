@@ -131,7 +131,7 @@ export default function Post({ post }: PostProps) {
         </View>
         <TouchableOpacity onPress={handleBookmark}>
           <Ionicons
-            name={isBookmarked ? "bookmark-outline" : "bookmark-sharp"}
+            name={isBookmarked ? "bookmark-sharp" : "bookmark-outline"}
             size={24}
             color={COLORS.white}
           />
