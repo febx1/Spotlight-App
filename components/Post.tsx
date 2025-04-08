@@ -74,7 +74,7 @@ export default function Post({ post }: PostProps) {
     <View style={styles.post}>
       {/* POST HEADER */}
       <View style={styles.postHeader}>
-        <Link href={`/(tabs)/notifications`}>
+        <Link href={`/user/${post.author._id}`} asChild>
           <TouchableOpacity style={styles.postHeader}>
             <Image
               source={post.author.image}
