@@ -93,7 +93,9 @@ Follow these steps to run the app locally:
 
 Explore our project board for tracking progress and tasks:
 
-[![Excaliboard](https://img.shields.io/badge/-Excaliboard-FF6F61?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...)](https://app.eraser.io/workspace/HmXLppkOu2ThJmA3jX6b)
+<a href="https://app.eraser.io/workspace/HmXLppkOu2ThJmA3jX6b" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/-Excaliboard-FF6F61?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA..." alt="Excaliboard" />
+</a>
 
 ---
 
