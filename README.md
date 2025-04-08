@@ -68,14 +68,21 @@ This app is built using modern technologies to ensure a seamless experience:
 Follow these steps to run the app locally:
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/your-username/social-media-app.git
    cd social-media-app
-   ```
-
-   `     /assets        # Images, icons, and other static files     /services      # API and backend integration     /pages         # Screens for each page (Home, Profile, etc.)     /components    # Reusable UI components   /src   `2. Project structure:2. Install dependencies:
-
-   ```bash
    npm install
+   expo start
    ```
+
+---
+
+## 📂 **Project Structure**
+
+```
+/src
+  /components    # Reusable UI components
+  /pages         # Screens for each page (Home, Profile, etc.)
+  /services      # API and backend integration
+  /assets        # Images, icons, and other static files
+```
