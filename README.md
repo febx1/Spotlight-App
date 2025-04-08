@@ -90,28 +90,26 @@ Follow these steps to run the app locally:
 ## 📱 **App Screenshots**
 
 <div align="center">
-  <h3>App Interface Gallery</h3>
+  <h3>Explore Our App Interface</h3>
+  <p>Swipe through our intuitive and user-friendly design</p>
 </div>
 
-<table>
-  <tr>
-    <td><img src="./doc-imgs/1.png" width="100%" alt="Screenshot 1"><br><em>Splash Screen</em></td>
-    <td><img src="./doc-imgs/2.png" width="100%" alt="Screenshot 2"><br><em>Login Screen</em></td>
-    <td><img src="./doc-imgs/3.png" width="100%" alt="Screenshot 3"><br><em>Home Feed</em></td>
-  </tr>
-  <tr>
-    <td><img src="./doc-imgs/4.png" width="100%" alt="Screenshot 4"><br><em>Profile Page</em></td>
-    <td><img src="./doc-imgs/5.png" width="100%" alt="Screenshot 5"><br><em>Bookmark Page</em></td>
-    <td><img src="./doc-imgs/6.png" width="100%" alt="Screenshot 6"><br><em>Add Post</em></td>
-  </tr>
-  <tr>
-    <td><img src="./doc-imgs/7.png" width="100%" alt="Screenshot 7"><br><em>Comments</em></td>
-    <td><img src="./doc-imgs/8.png" width="100%" alt="Screenshot 8"><br><em>Notifications</em></td>
-    <td><img src="./doc-imgs/9.png" width="100%" alt="Screenshot 9"><br><em>Settings</em></td>
-  </tr>
-  <tr>
-    <td><img src="./doc-imgs/10.png" width="100%" alt="Screenshot 10"><br><em>Dark Mode</em></td>
-    <td><img src="./doc-imgs/11.png" width="100%" alt="Screenshot 11"><br><em>Search Feature</em></td>
-    <td></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./doc-imgs/1.png" width="200" alt="Screenshot 1" />
+  <img src="./doc-imgs/2.png" width="200" alt="Screenshot 2" />
+  <img src="./doc-imgs/3.png" width="200" alt="Screenshot 3" />
+  <img src="./doc-imgs/4.png" width="200" alt="Screenshot 4" />
+</p>
+
+<p align="center">
+  <img src="./doc-imgs/5.png" width="200" alt="Screenshot 5" />
+  <img src="./doc-imgs/6.png" width="200" alt="Screenshot 6" />
+  <img src="./doc-imgs/7.png" width="200" alt="Screenshot 7" />
+  <img src="./doc-imgs/8.png" width="200" alt="Screenshot 8" />
+</p>
+
+<p align="center">
+  <img src="./doc-imgs/9.png" width="200" alt="Screenshot 9" />
+  <img src="./doc-imgs/10.png" width="200" alt="Screenshot 10" />
+  <img src="./doc-imgs/11.png" width="200" alt="Screenshot 11" />
+</p>
