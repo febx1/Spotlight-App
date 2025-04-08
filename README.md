@@ -87,6 +87,16 @@ Follow these steps to run the app locally:
   /assets        # Images, icons, and other static files
 ```
 
+---
+
+## 🗂️ **Excaliboard**
+
+Explore our project board for tracking progress and tasks:
+
+[![Excaliboard](https://img.shields.io/badge/-Excaliboard-FF6F61?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...)](https://excaliboard.com/your-project)
+
+---
+
 ## 📱 **App Screenshots**
 
 <div align="center">
