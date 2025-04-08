@@ -1,11 +1,12 @@
 import {
   FlatList,
+  RefreshControl,
+  RefreshControlComponent,
   ScrollView,
   Text,
   TouchableOpacity,
   View,
 } from "react-native";
-import { Link } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { COLORS } from "@/constants/theme";
 import { styles } from "@/styles/feed.styles";
@@ -16,13 +17,24 @@ import { api } from "@/convex/_generated/api";
 import { useQuery } from "convex/react";
 import Loader from "@/components/Loader";
 import Post from "@/components/Post";
+import { useState } from "react";
 
 export default function Index() {
   const { signOut } = useAuth();
+
+  const [refreshing, setRefreshing] = useState(false);
+
   const posts = useQuery(api.posts.getFeedPosts);
   if (posts === undefined) return <Loader />;
   if (posts.length === 0) return <NoPostsFound />;
 
+  const onRefresh = async () => {
+    setRefreshing(true);
+    setTimeout(() => {
+      setRefreshing(false);
+      //Tanstack can be used to refetch the data
+    }, 2000);
+  };
   return (
     <View style={styles.container}>
       {/* HEADER */}
@@ -41,6 +53,13 @@ export default function Index() {
         renderItem={({ item }) => <Post post={item} />}
         keyExtractor={(item) => item._id.toString()}
         ListHeaderComponent={<StoriesSection />}
+        refreshControl={
+          <RefreshControl
+            refreshing={refreshing}
+            onRefresh={onRefresh}
+            tintColor={COLORS.primary}
+          />
+        }
       />
     </View>
   );
